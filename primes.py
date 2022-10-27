@@ -8,7 +8,7 @@ def isPrime(numToTest):
             if numToTest%i==0:
                 primeFlag=False
                 break
-    return primeFlag
+        return primeFlag
 
 def primes(number_of_primes):
     if number_of_primes<1:
